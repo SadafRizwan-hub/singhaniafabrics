@@ -3,9 +3,9 @@
    colour cannot be trusted. */
 
 export const PHOTO = {
-  kalamkari: '/WhatsApp Image 2026-09-02 at 3.58.25 PM.jpeg',
-  position: '/WhatsApp Image 2026-09-02 at 3.58.24 PM.jpeg',
-  stack: '/WhatsApp Image 2026-09-02 at 3.58.25 PM (1).jpeg',
+  kalamkari: `${import.meta.env.BASE_URL}WhatsApp Image 2026-09-02 at 3.58.25 PM.jpeg`,
+  position: `${import.meta.env.BASE_URL}WhatsApp Image 2026-09-02 at 3.58.24 PM.jpeg`,
+  stack: `${import.meta.env.BASE_URL}WhatsApp Image 2026-09-02 at 3.58.25 PM (1).jpeg`,
 }
 
 export const SHADES = [
